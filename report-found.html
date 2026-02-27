@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Report Found Item</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Lost and Found System</h1>
+</header>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="report-lost.html">Report Lost Item</a>
+  <a href="report-found.html">Report Found Item</a>
+  <a href="search.html">Search Items</a>
+  <a href="admin.html">Admin Panel</a>
+</nav>
+
+<div class="container">
+  <h2>Report Found Item</h2>
+  <form id="foundForm">
+    <input type="text" id="name" placeholder="Item Name" required>
+    <input type="text" id="location" placeholder="Found Location" required>
+    <input type="text" id="contact" placeholder="Contact Info" required>
+    <input type="file" id="itemImage" accept="image/*">
+    <button type="submit">Submit</button>
+  </form>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
